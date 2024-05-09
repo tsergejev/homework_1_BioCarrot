@@ -18,7 +18,7 @@ public class Main {
     public static class VehicleRegistrationPlate {
         String spz = "N/A";
         public VehicleRegistrationPlate(String spz){
-            ArrayList<String> landscape = new ArrayList<String>();
+            ArrayList<String> landscape = new ArrayList<>();
             landscape.add("A");
             landscape.add("B");
             landscape.add("C");
@@ -82,7 +82,7 @@ public class Main {
         }
         System.out.println(plate.getSpz());
         System.out.println(birthDate);
-        System.out.println("Number of sold tons of carrot per contract: " + String.valueOf(averageAmountOfCarrotPerContract(contracts, tonsOfCarrot)));
+        System.out.println("Number of sold tons of carrot per contract: " + averageAmountOfCarrotPerContract(contracts, tonsOfCarrot));
 
     }
 }
